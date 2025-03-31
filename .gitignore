@@ -1,3 +1,42 @@
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Temporary files
+.Spotlight-V100
+.Trashes
+**/._*
+
+# macOS cache files
+.DS_Store?
+.Trashes
+*.swp
+*.swo
+*.DS_Store
+
+# Visual Studio Code specific
+.vscode/
+*.code-workspace
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Maven specific
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -7,11 +46,17 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
-# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+
+# Maven Wrapper files
 .mvn/wrapper/maven-wrapper.jar
 
-# Eclipse m2e generated files
-# Eclipse Core
+# Eclipse specific
 .project
-# JDT-specific (Eclipse Java Development Tools)
 .classpath
+.settings/
+.loadpath
+
+# IntelliJ IDEA specific
+.idea/
+*.iml
+out/
